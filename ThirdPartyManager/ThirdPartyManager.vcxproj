@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{4fe68f22-5fb1-4405-b2fd-143de0a13556}</ProjectGuid>
+    <RootNamespace>ThirdPartyManager</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ExternalIncludePath>$(SolutionDir);$(SolutionDir)ThirdParty;$(SolutionDir)ThirdParty\SDL2;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>$(SolutionDir)Lib\debug;$(OutDir);$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)common\include;$(ProjectDir)imguiParty\include;$(ProjectDir)vkParty\include;$(ProjectDir)sdlParty\include;$(ProjectDir)core;$(ProjectDir);$(ProjectDir)core\common\include;$(ProjectDir)core\config\include;$(ProjectDir)core\info\include;$(ProjectDir)jsoncppParty\include;$(ProjectDir)assimpParty\include;$(ProjectDir)imguiParty\imgui;$(IncludePath)</IncludePath>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ExternalIncludePath>$(SolutionDir);$(SolutionDir)ThirdParty;$(SolutionDir)ThirdParty\SDL2;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>$(SolutionDir)Lib\release;$(OutDir);$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)common\include;$(ProjectDir)imguiParty\include;$(ProjectDir)vkParty\include;$(ProjectDir)sdlParty\include;$(ProjectDir)core;$(ProjectDir);$(ProjectDir)core\common\include;$(ProjectDir)core\config\include;$(ProjectDir)core\info\include;$(ProjectDir)jsoncppParty\include;$(ProjectDir)assimpParty\include;$(ProjectDir)imguiParty\imgui;$(IncludePath)</IncludePath>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;THIRDPARTYMANAGER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;THIRDPARTYMANAGER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;THIRDPARTYMANAGER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>vulkan-1.lib;SDL2.lib;SDL2main.lib;imgui.lib;jsoncpp.lib;shaderc_combined.lib;spirv-reflect.lib;assimp-vc143-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;THIRDPARTYMANAGER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>vulkan-1.lib;SDL2.lib;SDL2main.lib;imgui.lib;jsoncpp.lib;shaderc_combined.lib;spirv-reflect.lib;assimp-vc143-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>MSVCRTD.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="assimpParty\source\assimp_party_manager.cpp" />
+    <ClCompile Include="common\source\math_util.cpp" />
+    <ClCompile Include="common\source\third_party_manager.cpp" />
+    <ClCompile Include="common\source\_debug_func.cpp" />
+    <ClCompile Include="core\common\source\compute_info.cpp" />
+    <ClCompile Include="core\common\source\debug_to_console.cpp" />
+    <ClCompile Include="core\info\source\application_window_info.cpp" />
+    <ClCompile Include="core\info\source\global_info.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="imguiParty\source\imgui_party_manager.cpp" />
+    <ClCompile Include="imguiParty\source\imgui_utils.cpp" />
+    <ClCompile Include="imguiParty\source\imgui_material_editor.cpp" />
+    <ClCompile Include="jsoncppParty\source\jsoncpp_party_manager.cpp" />
+    <ClCompile Include="sdlParty\source\sdl_party_manager.cpp" />
+    <ClCompile Include="third_party_manager_global.cpp" />
+    <ClCompile Include="utils\utils.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_object.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_shader_compiler.cpp" />
+    <ClCompile Include="vkParty\source\vk_party_manager.cpp" />
+    <ClCompile Include="vkParty\source\vk_allocator.cpp" />
+    <ClCompile Include="vkParty\source\vk_allocator_test.cpp" />
+    <ClCompile Include="vkParty\source\vk_util_function.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_command_buffer.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_queue.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_render_pass.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_pipeline.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_pipeline_layout.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_texture.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_image.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_image_view.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_sampler.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_frame_buffer.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_fence.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_semaphore.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_subpass.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_vertex_buffer.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_buffer.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_uniform_buffer.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_index_buffer.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_descriptor_set.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_texture_ext.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_slot.cpp" />
+    <ClCompile Include="vkParty\source\vkobject\vk_slot_data.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="assimpParty\include\assimp_party_manager.h" />
+    <ClInclude Include="common\include\math_util.h" />
+    <ClInclude Include="common\include\third_party_manager.h" />
+    <ClInclude Include="common\include\_debug_func.h" />
+    <ClInclude Include="core\common\include\compute_info.h" />
+    <ClInclude Include="core\common\include\debug_to_console.h" />
+    <ClInclude Include="core\info\include\application_window_info.h" />
+    <ClInclude Include="core\info\include\global_info.h" />
+    <ClInclude Include="imguiParty\include\imgui_party_manager.h" />
+    <ClInclude Include="imguiParty\include\imgui_utils.h" />
+    <ClInclude Include="imguiParty\include\imgui_material_editor.h" />
+    <ClInclude Include="jsoncppParty\include\jsoncpp_party_manager.h" />
+    <ClInclude Include="sdlParty\include\sdl_party_manager.h" />
+    <ClInclude Include="third_party_manager_global.h" />
+    <ClInclude Include="utils\utils.h" />
+    <ClInclude Include="vkParty\include\stb_image.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_shader_compiler.h" />
+    <ClInclude Include="vkParty\include\vk_party_manager.h" />
+    <ClInclude Include="vkParty\include\vk_allocator.h" />
+    <ClInclude Include="vkParty\include\vk_allocator_test.h" />
+    <ClInclude Include="vkParty\include\vk_struct.h" />
+    <ClInclude Include="vkParty\include\vk_util_function.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_command_buffer.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_object.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_queue.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_render_pass.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_pipeline.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_pipeline_layout.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_texture.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_image.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_image_view.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_sampler.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_frame_buffer.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_fence.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_semaphore.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_subpass.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_vertex_buffer.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_buffer.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_uniform_buffer.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_index_buffer.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_descriptor_set.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_texture_ext.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_slot.h" />
+    <ClInclude Include="vkParty\include\vkobject\vk_slot_data.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="third_party_manager.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

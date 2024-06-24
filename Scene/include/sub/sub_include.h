@@ -1,0 +1,13 @@
+#pragma once
+#include "scene_inner_global.h"
+#include "Camera.h"
+#include "Texture.h"
+#include "scene_obj.h"
+#include "Material.h"
+#include "Light.h"
+#include "Model.h"
+#include "shape/Shape.h"
+#include "shape/Cube.h"
+#include "shape/Plane.h"
+#include "shape/shape_static_func.h"
+#include "SubCamera.h"

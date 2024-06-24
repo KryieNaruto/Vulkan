@@ -1,0 +1,11 @@
+#pragma once
+#include "include/resource_inner_global.h"
+#include "include/resource_preload.h"
+#include "include/Shader.h"
+#include "include/RCamera.h"
+#include "include/RModel.h"
+#include "include/shader_uniform_struct.h"
+#include "include/model/RPlane.h"
+#include "include/RLight.h"
+#include "include/RVertex.h"
+#include "include/ZResource.h"

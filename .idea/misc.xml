@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="CidrRootsConfiguration">
+    <excludeRoots>
+      <file path="$PROJECT_DIR$/.vs" />
+      <file path="$PROJECT_DIR$/.vscode" />
+      <file path="$PROJECT_DIR$/Core/x64" />
+      <file path="$PROJECT_DIR$/Editor/x64" />
+      <file path="$PROJECT_DIR$/Resource/x64" />
+      <file path="$PROJECT_DIR$/Scene/x64" />
+      <file path="$PROJECT_DIR$/Test/x64" />
+      <file path="$PROJECT_DIR$/ThirdPartyManager/x64" />
+      <file path="$PROJECT_DIR$/build" />
+      <file path="$PROJECT_DIR$/cmake-build-debug" />
+      <file path="$PROJECT_DIR$/cmake-build-debug-wsl" />
+      <file path="$PROJECT_DIR$/node_cache" />
+      <file path="$PROJECT_DIR$/x64" />
+      <file path="$PROJECT_DIR$/报告" />
+    </excludeRoots>
+  </component>
+</project>

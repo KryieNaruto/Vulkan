@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Editor::Editor" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAQQAAAJAAAAAAAQAwARAAAEAQAAA=</HashCode>
+      <FileName>editor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Editor::FileEditor" Collapsed="true">
+    <Position X="6" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAFAQAA4QACAAKAAggAAAgAAggQAVCAAEQACg=</HashCode>
+      <FileName>include\file_editor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Editor::SceneEditor" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAEACQAAgQBAIAQAAAIBABBAAAAQAAAgAgwFAQAAAAA=</HashCode>
+      <FileName>include\scene_editor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Editor::BaseEditor" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>gQAEAAUQAAhAAECAAACIABAAAIAQAAIgAgCAACAEAAA=</HashCode>
+      <FileName>include\base_editor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Editor::ZEditor" Collapsed="true">
+    <Position X="5" Y="5.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAgAAAEAAAAhAAAAABAAAAA=</HashCode>
+      <FileName>include\base_editor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Editor::MaterialEditor" Collapsed="true">
+    <Position X="3.25" Y="5.75" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="Editor::MaterialEditor::CreateType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>include\material_editor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Enum Name="Editor::MaterialEditor::MATERIAL_EDITOR_CREATE_TYPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>include\material_editor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQEAAAAAAAAAABAEAACEAAAAAAAABAAgAAEEBIAEGAA=</HashCode>
+      <FileName>include\material_editor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Editor::MaterialDelegate" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAQQFAgIYAAAAAAAAAUBAAAAAAAQBAAAAiAAABgYAA=</HashCode>
+      <FileName>include\material_editor.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Editor::OnRenderFunc::EDITOR_FLAGS" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEEAAAAAgACAAAAAEAAQhAAAAAEQAAAAAAASAGAAAA=</HashCode>
+      <FileName>editor_global_func.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

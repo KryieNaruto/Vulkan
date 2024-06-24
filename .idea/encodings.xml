@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Core/include/core_struct.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Editor/source/material_editor.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ThirdPartyManager/common/include/math_util.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ThirdPartyManager/core/info/include/application_window_info.h" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

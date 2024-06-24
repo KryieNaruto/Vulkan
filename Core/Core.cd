@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Core::IDGenerate" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAABAAAAAACAAAQAAAAAACAAIAAAAAAAAAABA=</HashCode>
+      <FileName>include\id_generate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::ZClass" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAYAAAAAAAAAEAAAAAAAAAAAEAAAAAAIAAA=</HashCode>
+      <FileName>include\ZClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::ZFileManager" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAIAEAAAAAEACAAAAAABAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>include\ZFileManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Core::Core_Pool::ptr_debug_info" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAEACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\core_global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Core::FileInfo" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgACIAJAAAAAABEAIAAAIAAgAAAQAQAgEAAAAIAACA=</HashCode>
+      <FileName>include\core_struct.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Core::ProjectInfo" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FCADAAAAAACAAAAAAIAAAAAAAAAAEAAAAACAAAAAAAU=</HashCode>
+      <FileName>include\core_struct.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Core::RESOURCE_TYPE" Collapsed="true">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAADAAQAAABAAAgQAAABgAAAAAQAAAAAAgABBAYAAA=</HashCode>
+      <FileName>include\core_struct.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core::FILE_TYPE" Collapsed="true">
+    <Position X="3" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>include\core_struct.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
