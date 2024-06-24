@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Core::Resource::ZResource" Collapsed="true">
+    <Position X="15" Y="5.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>BEAAABIAAAAEAAAAAIgAQIAAAgAAQAAAMACAACAAAAE=</HashCode>
+      <FileName>include\ZResource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::RShader" Collapsed="true">
+    <Position X="13.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BDAAAAAEAIEAAAAAQABAAAFA0gAAEQoAABgFQCAAAAE=</HashCode>
+      <FileName>include\RShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::RCamera" Collapsed="true">
+    <Position X="19" Y="4.5" Width="2" />
+    <InheritanceLine Type="Core::Resource::ZResource" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="18.25" Y="5.562" />
+        <Point X="18.442" Y="5.562" />
+        <Point X="18.442" Y="5.369" />
+        <Point X="20.062" Y="5.369" />
+        <Point X="20.062" Y="5.177" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>xRkCgBAAQiBAAhkCBACCAAgkGAA4AQAggIAMSQA4cgE=</HashCode>
+      <FileName>include\RCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::Shader" Collapsed="true">
+    <Position X="11.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QMAEBAAtAoREIAAgCAAhAAEBAIbIQUGAhBUDRCAAAEI=</HashCode>
+      <FileName>include\Shader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::RRenderPass" Collapsed="true">
+    <Position X="15.5" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="Core::Resource::ZResource" FixedFromPoint="true">
+      <Path>
+        <Point X="16.25" Y="5.25" />
+        <Point X="16.25" Y="4.927" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAAEAAAASAAAAAAAACAFAQACABQAAAEBggBAICAAkME=</HashCode>
+      <FileName>include\RRenderPass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::RModel" Collapsed="true">
+    <Position X="14.5" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="Core::Resource::ZResource" FixedFromPoint="true">
+      <Path>
+        <Point X="15.25" Y="5.927" />
+        <Point X="15.25" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>RAAUwFACQADAgBgEiIAAAQEAAICkAuQACAAUCAVAUBU=</HashCode>
+      <FileName>include\RModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::RMesh" Collapsed="true">
+    <Position X="16" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="Core::Resource::ZResource" FixedFromPoint="true">
+      <Path>
+        <Point X="16.75" Y="5.927" />
+        <Point X="16.75" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAAWABAAEAAAAAgAACIQEBABAAQIAAAAAAAAEAAEABE=</HashCode>
+      <FileName>include\RMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::RVertex" Collapsed="true">
+    <Position X="17" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="Core::Resource::ZResource" FixedFromPoint="true">
+      <Path>
+        <Point X="17.75" Y="5.25" />
+        <Point X="17.75" Y="4.927" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAAQAAAAACAAAAAAAQAQAYAAAAAAAAAAAAAAAEAABAE=</HashCode>
+      <FileName>include\RVertex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::RTexture" Collapsed="true">
+    <Position X="18.75" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAEAIAgAABAAAAAAAIAAAAIAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>include\RTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::RMaterial" Collapsed="true">
+    <Position X="13.25" Y="4.25" Width="2.25" />
+    <InheritanceLine Type="Core::Resource::ZResource" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15" Y="5.375" />
+        <Point X="14.846" Y="5.375" />
+        <Point X="14.846" Y="5.081" />
+        <Point X="14.25" Y="5.081" />
+        <Point X="14.25" Y="4.927" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAIAAAgkQJAAAAkAQBAIAAAAACAIBgAAAAgNCAQAwAE=</HashCode>
+      <FileName>include\RMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::RShape" Collapsed="true">
+    <Position X="14.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAoAAQAAABAAgQABIAEACABAAQAAAAAAIAAAAEAAA=</HashCode>
+      <FileName>include\model\RShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::RPlane" Collapsed="true">
+    <Position X="14.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAgAAAAAAEAAAA=</HashCode>
+      <FileName>include\model\RPlane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::RLight" Collapsed="true">
+    <Position X="17.5" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="Core::Resource::ZResource" FixedFromPoint="true">
+      <Path>
+        <Point X="18.25" Y="5.927" />
+        <Point X="18.25" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAgAABCAAAAAAAAAAAAAAAAAAJAABIAAAAAEAAAMABE=</HashCode>
+      <FileName>include\RLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Core::Resource::VertexInput_vec2_1" Collapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\resource_inner_global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Core::Resource::VertexInput_vec3_1" Collapsed="true">
+    <Position X="23.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\resource_inner_global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Core::Resource::VertexInput_default" Collapsed="true">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\resource_inner_global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Core::Resource::VertexInput_vec3_1_vec2_2" Collapsed="true">
+    <Position X="25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\resource_inner_global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Core::Resource::RObjectProperty" Collapsed="true">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FkAACAARAAIQACAggAAAAAIARYVAQCASAggBEGgGQAI=</HashCode>
+      <FileName>include\resource_inner_global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Core::Resource::SceneObjectProperty" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\resource_inner_global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Core::Resource::RLightProperty" Collapsed="true">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAIAABAAQAAAAAAAAAACAAAIQAAAIAAAAAAAgEAEA=</HashCode>
+      <FileName>include\resource_inner_global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Core::Resource::RMeshProperty" Collapsed="true">
+    <Position X="2.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIgAAAAAAAAAEAAAAAAAIAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>include\resource_inner_global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Core::Resource::CameraProperty" Collapsed="true">
+    <Position X="6.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAIAAAHAAFAAEKgAAAiAAAAAQICUQAAIgUAAAQEEgA=</HashCode>
+      <FileName>include\resource_inner_global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="equal" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\RModel.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="std::hash&lt;Core::Resource::RVertex*&gt;" Collapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\RModel.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="Core::Resource::ObjectProperty" Collapsed="true">
+    <Position X="21.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\resource_inner_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="Core::Resource::VERTEX_INPUT_FLAG" Collapsed="true">
+    <Position X="21.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAQgAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\resource_inner_global.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

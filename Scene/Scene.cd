@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Core::Resource::Cube" Collapsed="true">
+    <Position X="7.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAACAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>include\sub\shape\Cube.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::Camera" Collapsed="true">
+    <Position X="6.5" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAAEgACAQACAAAAAAAAAAAAAAAlAEFAMAAA=</HashCode>
+      <FileName>include\sub\Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::Scene" Collapsed="true">
+    <Position X="8.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RxIAgphwAQDEABgyiAkMIyEAQAIgcEwyBTNLCEBiVjE=</HashCode>
+      <FileName>include\Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::SceneObject" Collapsed="true">
+    <Position X="8.75" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAAIAAABEAAAAKCgAAYAACOAKAAAARASAAARAA=</HashCode>
+      <FileName>include\sub\scene_obj.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::Light" Collapsed="true">
+    <Position X="10.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACEAAgAAAACACQIAAgAAAgAAAACAAABAAAQEQAA=</HashCode>
+      <FileName>include\sub\Light.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::Material" Collapsed="true">
+    <Position X="12.25" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AUAQAgAAQAAEAAAAAAAAAAEAAAAEAAACAABAAAAAQAA=</HashCode>
+      <FileName>include\sub\Material.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::Model" Collapsed="true">
+    <Position X="8.5" Y="6.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>QQEAgSAAIAACAIAAAQIAAhgAAAQYAEAQAAtAApwAAAA=</HashCode>
+      <FileName>include\sub\Model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::Mesh" Collapsed="true">
+    <Position X="11.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAACAEAAAAAAAIAAAAAAAAAAAAAAQBAAABAAAA=</HashCode>
+      <FileName>include\sub\Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::Plane" Collapsed="true">
+    <Position X="9.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>include\sub\shape\Plane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::Texture" Collapsed="true">
+    <Position X="6.75" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="Core::Resource::SceneObject" ManuallyRouted="true">
+      <Path>
+        <Point X="10" Y="5.5" />
+        <Point X="10" Y="5.377" />
+        <Point X="8.633" Y="5.377" />
+        <Point X="8.633" Y="4.653" />
+        <Point X="8.25" Y="4.653" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAggAAAAAAAAAAAAAAAAAAAAJAAAAAAAA=</HashCode>
+      <FileName>include\sub\Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::Shape" Collapsed="true">
+    <Position X="9.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEoAAAAAABAAgAAAIAEACBAAAQAAAAAAJAAAAAAAA=</HashCode>
+      <FileName>include\sub\shape\Shape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::Sphere" Collapsed="true">
+    <Position X="11" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAACAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>include\sub\shape\Sphere.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Resource::SubCamera" Collapsed="true">
+    <Position X="6" Y="6.25" Width="2.25" />
+    <InheritanceLine Type="Core::Resource::Camera" FixedFromPoint="true">
+      <Path>
+        <Point X="7.062" Y="6.056" />
+        <Point X="7.062" Y="6.156" />
+        <Point X="7.125" Y="6.156" />
+        <Point X="7.125" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQABAAAgAIBAAABICAAAABAAABAAAAAAABAAAAIAAAA=</HashCode>
+      <FileName>include\sub\SubCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

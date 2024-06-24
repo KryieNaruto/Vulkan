@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+2 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/17148/Desktop/ZsEngine/cmake-build-debug-visual-studio/Resource/CMakeFiles/Resource.dir/embed.manifest"

@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ThirdParty::AssimpManager" Collapsed="true">
+    <Position X="15.75" Y="9.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAgCIQAAAUAAAAAAAAYQAAAAAAAAAAA=</HashCode>
+      <FileName>assimpParty\include\assimp_party_manager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::Manager&lt;T&gt;" Collapsed="true">
+    <Position X="14" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAIAAAEAAAAAIBAIAAAAAAAAAgAQ=</HashCode>
+      <FileName>common\include\third_party_manager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::ImGuiManager" Collapsed="true">
+    <Position X="11.75" Y="9.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgIgCAAAAAgQAABCBIIAAEoABCCgAQswAgAAADAQAAU=</HashCode>
+      <FileName>imguiParty\include\imgui_party_manager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::JsoncppManager" Collapsed="true">
+    <Position X="12.5" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAAABAAAECgACACAiACQGEAAAACAAIAAQAAAAAAAAA=</HashCode>
+      <FileName>jsoncppParty\include\jsoncpp_party_manager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::SDLManager" Collapsed="true">
+    <Position X="13.75" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CwAAgAQIYQQISAACkICAAEQQIBAcgApgAAQAEACAAQQ=</HashCode>
+      <FileName>sdlParty\include\sdl_party_manager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::ShaderCompiler" Collapsed="true">
+    <Position X="49.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEBAAAAAAAAAAAAAAAAAgAAAAAAAAgAACAAAAA=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_shader_compiler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::VkManager" Collapsed="true">
+    <Position X="15.25" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>xIhFwEA4CgQQEqBCBACgAEBLhICCCQKIAAAAPhBEAsQ=</HashCode>
+      <FileName>vkParty\include\vk_party_manager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::Vk_Allocator" Collapsed="true">
+    <Position X="5.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgCkBBAAAAAAAAAAAAABAAAAAAAAAAAAIQAAAAA=</HashCode>
+      <FileName>vkParty\include\vk_allocator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::Vk_Allocator_Test" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>vkParty\include\vk_allocator_test.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::CommandBuffer" Collapsed="true">
+    <Position X="28" Y="7" Width="2" />
+    <InheritanceLine Type="ThirdParty::vkObject" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="30.5" Y="7.438" />
+        <Point X="30.26" Y="7.438" />
+        <Point X="30.26" Y="7.187" />
+        <Point X="30" Y="7.187" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AIAAIAAAQAAAAAAAAIAAAAAAIBAAgAIBQAAAAAAAAAA=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_command_buffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::vkObject" Collapsed="true">
+    <Position X="30.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEACAgBAABAIAABgAAUgAAAAAAACAAgAA=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::Queue" Collapsed="true">
+    <Position X="31" Y="3.5" Width="2" />
+    <NestedTypes>
+      <Enum Name="ThirdParty::Queue::SUBMIT_FLAG" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>vkParty\include\vkobject\vk_queue.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="ThirdParty::Queue::PRESENT_FLAG" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>vkParty\include\vkobject\vk_queue.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAAACAAACABIABAAAgQAAAJQAAAAAUAAIAAAIAACAE=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_queue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::RenderPass" Collapsed="true">
+    <Position X="31" Y="4.25" Width="2" />
+    <NestedTypes>
+      <Enum Name="ThirdParty::RenderPass::RENDERPASS_BEGIN_FLAG" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>vkParty\include\vkobject\vk_render_pass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>UAAEAAAAAAQAEAAAAAAgAAALABCAAAAQAAAAEAAICAA=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_render_pass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::Pipeline" Collapsed="true">
+    <Position X="28" Y="4" Width="2" />
+    <NestedTypes>
+      <Enum Name="ThirdParty::Pipeline::PIPELINE_CREATE_STAGE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>vkParty\include\vkobject\vk_pipeline.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <InheritanceLine Type="ThirdParty::vkObject" FixedFromPoint="true">
+      <Path>
+        <Point X="30.5" Y="7.438" />
+        <Point X="30.26" Y="7.438" />
+        <Point X="30.26" Y="4.339" />
+        <Point X="30" Y="4.339" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EABABQMGAmQABAAAEgQUBEEAxAAAQZQAQAAEAAAAAAI=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_pipeline.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::PipelineLayout" Collapsed="true">
+    <Position X="27.75" Y="6.25" Width="2.25" />
+    <InheritanceLine Type="ThirdParty::vkObject" FixedFromPoint="true">
+      <Path>
+        <Point X="30.5" Y="7.438" />
+        <Point X="30.26" Y="7.438" />
+        <Point X="30.26" Y="6.589" />
+        <Point X="30" Y="6.589" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAgAAAAAAAAAEAAAAAAIAAAAAACAABCAAAAI=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_pipeline_layout.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::Texture" Collapsed="true">
+    <Position X="30.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAAAAABBAgAEBAEAAAABAAAAAQAIAAAIAQBAAAIQ=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::Image" Collapsed="true">
+    <Position X="29" Y="8" Width="2" />
+    <InheritanceLine Type="ThirdParty::vkObject" FixedToPoint="true">
+      <Path>
+        <Point X="31.25" Y="7.798" />
+        <Point X="31.25" Y="8.438" />
+        <Point X="31" Y="8.438" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAABAAAABIBIAAAAAAgIAAAI=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_image.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::ImageView" Collapsed="true">
+    <Position X="31.5" Y="8" Width="2" />
+    <InheritanceLine Type="ThirdParty::vkObject" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="31.25" Y="7.798" />
+        <Point X="31.25" Y="8.437" />
+        <Point X="31.5" Y="8.437" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAQAQAAAEAAAAAAAAAAAAAQAIAAAAAAAAAAAI=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_image_view.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::Sampler" Collapsed="true">
+    <Position X="32.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAgABAAAAEAAAAAAAAAAQAAAAAAAAAII=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_sampler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::FrameBuffer" Collapsed="true">
+    <Position X="28" Y="4.75" Width="2" />
+    <InheritanceLine Type="ThirdParty::vkObject" FixedFromPoint="true">
+      <Path>
+        <Point X="30.5" Y="7.438" />
+        <Point X="30.26" Y="7.438" />
+        <Point X="30.26" Y="5.089" />
+        <Point X="30" Y="5.089" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAIBAAAAAAAAIAAAAAAAIAgAA=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_frame_buffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::Fence" Collapsed="true">
+    <Position X="28.75" Y="8.75" Width="1.5" />
+    <InheritanceLine Type="ThirdParty::vkObject" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="31.25" Y="7.798" />
+        <Point X="31.25" Y="7.914" />
+        <Point X="28.75" Y="7.914" />
+        <Point X="28.75" Y="9.188" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAIAAAAAAAAAAAAgAAAAABIAAAAAAAAAgAA=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_fence.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::Semaphore" Collapsed="true">
+    <Position X="27" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_semaphore.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::Subpass" Collapsed="true">
+    <Position X="33.25" Y="4.25" Width="2.25" />
+    <InheritanceLine Type="ThirdParty::vkObject" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="31.25" Y="7.25" />
+        <Point X="31.25" Y="6.878" />
+        <Point X="30.608" Y="6.878" />
+        <Point X="30.608" Y="3.342" />
+        <Point X="34.312" Y="3.342" />
+        <Point X="34.312" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAABAAAAEAAAAAAAAAAAoAAAgABgQQAAAIAAA=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_subpass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::VertexBuffer" Collapsed="true">
+    <Position X="34.5" Y="6.75" Width="2" />
+    <InheritanceLine Type="ThirdParty::vkObject" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="32" Y="7.562" />
+        <Point X="34.422" Y="7.562" />
+        <Point X="34.422" Y="7.21" />
+        <Point X="34.5" Y="7.21" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAgAAABAAAAAQAAAAAAAAAAAAAACAAAAAAAAAMAA=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_vertex_buffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::Buffer" Collapsed="true">
+    <Position X="32.25" Y="6.75" Width="2" />
+    <InheritanceLine Type="ThirdParty::vkObject" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="32" Y="7.312" />
+        <Point X="32.123" Y="7.312" />
+        <Point X="32.123" Y="7.062" />
+        <Point X="32.25" Y="7.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAgQAABAAIAAAAABAAAICAgAAAACIBAAgAAAQQIA=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_buffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::UniformBuffer" Collapsed="true">
+    <Position X="34.5" Y="8.25" Width="1.5" />
+    <InheritanceLine Type="ThirdParty::vkObject" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="32" Y="7.562" />
+        <Point X="34.145" Y="7.562" />
+        <Point X="34.145" Y="8.625" />
+        <Point X="34.5" Y="8.625" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAABAAIAAAAAACAAAAAAgAAACAAAAAAAAAIAA=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_uniform_buffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::IndexBuffer" Collapsed="true">
+    <Position X="34.5" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="ThirdParty::vkObject" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="32" Y="7.562" />
+        <Point X="34.16" Y="7.562" />
+        <Point X="34.16" Y="7.875" />
+        <Point X="34.5" Y="7.875" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAABAAAAAAAAAAEAABAAAAAACAAAAAAAAAIAA=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_index_buffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::DescriptorSet" Collapsed="true">
+    <Position X="28" Y="5.5" Width="2" />
+    <InheritanceLine Type="ThirdParty::vkObject" FixedFromPoint="true">
+      <Path>
+        <Point X="30.5" Y="7.438" />
+        <Point X="30.26" Y="7.438" />
+        <Point X="30.26" Y="5.839" />
+        <Point X="30" Y="5.839" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CAgAAAAQABAAAAAgAIAAAAAIAIAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_descriptor_set.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::TextureEXT" Collapsed="true">
+    <Position X="29.75" Y="9.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IAAAAIAIGIAAAAEAAABwOAACAgIAYAIABAg4AhKEQAA=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_texture_ext.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::Slot" Collapsed="true">
+    <Position X="31" Y="5.75" Width="2.75" />
+    <InheritanceLine Type="ThirdParty::vkObject" FixedFromPoint="true">
+      <Path>
+        <Point X="31.875" Y="7.25" />
+        <Point X="31.875" Y="6.619" />
+        <Point X="32.375" Y="6.619" />
+        <Point X="32.375" Y="6.427" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>GAQEgAIAQIICAAAADCgIBAQICCQEQAAgAEAAQACEAgI=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_slot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::SlotData" Collapsed="true">
+    <Position X="31" Y="5" Width="2.75" />
+    <InheritanceLine Type="ThirdParty::vkObject" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="31.875" Y="7.25" />
+        <Point X="31.875" Y="6.619" />
+        <Point X="33.939" Y="6.619" />
+        <Point X="33.939" Y="5.375" />
+        <Point X="33.75" Y="5.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CAXAAQKBCRgAAggAaABgKAggAKABoQIgBAAEABjFQCg=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_slot_data.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdParty::Core::ComputeInfo" Collapsed="true">
+    <Position X="47.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIgAAAAAQAAAAAAoAAAAAAAAACAgAMAAAACIAAA=</HashCode>
+      <FileName>core\common\include\compute_info.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ThirdParty::JsonWriter" Collapsed="true">
+    <Position X="51.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAiAAAAAAAAAAAAAAAAAAAAgAAAAAg=</HashCode>
+      <FileName>jsoncppParty\include\jsoncpp_party_manager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ThirdParty::JsonReader" Collapsed="true">
+    <Position X="49.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAEAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>jsoncppParty\include\jsoncpp_party_manager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ThirdParty::QueueFamilyIndices" Collapsed="true">
+    <Position X="49.5" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>vkParty\include\vk_struct.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ThirdParty::SwapChainSupportDetails" Collapsed="true">
+    <Position X="53.5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>vkParty\include\vk_struct.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ThirdParty::SwapchainRecreateDetails" Collapsed="true">
+    <Position X="51.25" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>vkParty\include\vk_struct.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ThirdParty::TextureFileInfo" Collapsed="true">
+    <Position X="47.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAKAAAAAAAAAAQACAAAAAAAAAAAA=</HashCode>
+      <FileName>vkParty\include\vkobject\vk_texture_ext.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ThirdParty::Core::ApplicationInfo" Collapsed="true">
+    <Position X="47.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>core\info\include\application_window_info.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ThirdParty::Core::ApplicationWindowInfo" Collapsed="true">
+    <Position X="53.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>core\info\include\application_window_info.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ThirdParty::Core::ApplicationSDLInfo" Collapsed="true">
+    <Position X="49.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>core\info\include\application_window_info.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ThirdParty::Core::ApplicationVulkanInfo" Collapsed="true">
+    <Position X="51.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>core\info\include\application_window_info.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ThirdParty::imgui::Options" Collapsed="true">
+    <Position X="47.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>imguiParty\include\imgui_material_editor.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ThirdParty::imgui::DebugInfo" Collapsed="true">
+    <Position X="55.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>imguiParty\include\imgui_material_editor.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ThirdParty::imgui::ViewState" Collapsed="true">
+    <Position X="49.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>imguiParty\include\imgui_material_editor.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ThirdParty::imgui::SlotTemplate" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>imguiParty\include\imgui_material_editor.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ThirdParty::imgui::SlotTemplateInput" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>imguiParty\include\imgui_material_editor.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ThirdParty::imgui::SlotTemplateOutput" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>imguiParty\include\imgui_material_editor.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ThirdParty::imgui::Template" Collapsed="true">
+    <Position X="55.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>imguiParty\include\imgui_material_editor.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ThirdParty::imgui::Node" Collapsed="true">
+    <Position X="54.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>imguiParty\include\imgui_material_editor.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ThirdParty::imgui::Link" Collapsed="true">
+    <Position X="53" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>imguiParty\include\imgui_material_editor.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ThirdParty::imgui::Delegate" Collapsed="true">
+    <Position X="47.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>imguiParty\include\imgui_material_editor.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="AllocList" Collapsed="true">
+    <Position X="46.25" Y="7" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>common\include\_debug_func.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ThirdParty::imgui::NodeIndex" Collapsed="true">
+    <Position X="47.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>imguiParty\include\imgui_material_editor.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ThirdParty::imgui::SlotIndex" Collapsed="true">
+    <Position X="49.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>imguiParty\include\imgui_material_editor.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ThirdParty::imgui::LinkIndex" Collapsed="true">
+    <Position X="52.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>imguiParty\include\imgui_material_editor.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ThirdParty::imgui::TemplateIndex" Collapsed="true">
+    <Position X="50.75" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>imguiParty\include\imgui_material_editor.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ThirdParty::JsWriter" Collapsed="true">
+    <Position X="54" Y="7" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jsoncppParty\include\jsoncpp_party_manager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ThirdParty::JsReader" Collapsed="true">
+    <Position X="50.25" Y="7" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jsoncppParty\include\jsoncpp_party_manager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="ThirdParty::imgui::NodeOperation" Collapsed="true">
+    <Position X="46.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>imguiParty\include\imgui_material_editor.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
